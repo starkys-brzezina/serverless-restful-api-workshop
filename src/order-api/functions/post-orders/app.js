@@ -39,7 +39,6 @@ exports.postOrders = async (event) => {
       orderStatus: DEFAULT_ORDER_STATUS,
     }
 
-    
     // We will be creating step functions object from input and stateMachine arn.
     const startReq = {
       stateMachineArn: stateMachineArn,
